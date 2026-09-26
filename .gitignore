@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+cookies*
+browser-profile/
+screenshots/
+outputs/
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.xlsx
+*.csv

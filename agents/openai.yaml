@@ -1,0 +1,4 @@
+interface:
+  display_name: "Naike LinkedIn Post"
+  short_description: "Prepare, publish, and log short Naike LinkedIn company posts."
+  default_prompt: "Use $naike-linkedin-post to publish today's short Naike LinkedIn company post with 3-4 product images and a dated log."
