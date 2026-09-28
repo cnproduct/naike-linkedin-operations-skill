@@ -99,7 +99,7 @@ Use a varied 3-4 image carousel:
 
 Hero images may include concise commercial text. Product main images should look like real product photos and should not include poster copy.
 
-For cup/drinkware topics, select images where the primary object is clearly a cup, tumbler, travel cup, bottle, sip cup, straw cup, or mug. Do not use silicone plates, lunch boxes, color-board images, stackable food pods, or meal jars for a drinkware/cup post unless the user explicitly asks for a mixed creative food-container carousel. If fewer than 3 suitable cup images are available in the user's configured real-media folder (currently `D:\图片文件\Linkedin每日发布` for this Naike setup), state that shortage before publishing.
+For product-focused cup/drinkware topics, generate a fresh 3-4 image set with cups, tumblers, travel cups, bottles, sip cups, straw cups, or mugs as the primary subject. Do not browse the configured real-media folder to source or fill these product carousels. Do not use silicone plates, lunch boxes, color-board images, stackable food pods, or meal jars unless the user explicitly requests a mixed creative food-container post. Use the real-media folder only for themes requiring authentic company evidence or when the user explicitly requests source-folder photos. Clearly describe generated visuals as concepts, not confirmed production samples.
 
 For factory, QC, certification, sample-review, or company-strength visuals, avoid empty-looking documents and boards. QC forms, production forms, sample approval sheets, and factory tables should show realistic records such as rows, checkboxes, dates, batch marks, stamps, and pass/fail ticks.
 

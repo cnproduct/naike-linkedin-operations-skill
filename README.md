@@ -6,7 +6,7 @@ A reusable Codex skill for planning, preparing, validating, publishing, and lear
 
 - A varied weekly editorial mix spanning real company moments, factory and quality proof, buyer education, product customization, compliance, and company culture.
 - Fresh English B2B copy with a clear buyer benefit, readable spacing, light emoji, relevant keywords, hashtags, and configured contact details.
-- Real-media selection rules, subject matching for drinkware versus creative food containers, image-quality checks, and content-credential expectations.
+- Generated 3-4 image creative-drinkware carousels by default; real-media selection for authentic company, factory, employee, QC, certificate, and shipment themes; image-quality and content-credential rules.
 - Chrome-based LinkedIn company-page publishing, post verification, one-retry failure handling, dated packages and logs, and low-reach amplification materials.
 - A package validator and a Git hook that pushes committed skill improvements to the configured GitHub repository.
 

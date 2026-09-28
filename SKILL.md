@@ -27,7 +27,7 @@ Use this content mix unless a newer data review clearly changes the pattern:
 
 For reach growth, prioritize authentic proof over polished advertising. A post should usually answer one buyer question: "Can I trust this supplier to handle my project carefully?"
 
-User correction as of 2026-09-24: when the post direction is drinkware, cups, tumblers, travel cups, bottles, or creative drinking containers, the attached images must clearly show cup/drinkware products. Do not fill a drinkware post with color-board images, silicone plates, lunch boxes, generic food pods, or meal jars just to reach 3-4 images. If the real-material folder has fewer than 3 suitable cup/drinkware images, report the shortage and either publish with the clearly suitable cup images only after explicit confirmation or create a new approved cup-focused image set.
+User preference as of 2026-09-28: for product-focused posts about creative cups, drinkware, tumblers, travel cups, bottles, or other drinking vessels, generate a fresh, coherent set of 3-4 cup-focused images. Do not search the configured real-material folder to fill the carousel or substitute unrelated products. Use those generated outputs in the LinkedIn upload flow. Keep real local photos for themes that depend on authentic people or places, such as employees, factory work, QC, team events, shipments, or real certificates. Never claim generated product concepts are actual samples or validated products.
 
 ## Performance Reality
 
@@ -70,17 +70,13 @@ Create or reuse a dated package in the project `outputs/` folder:
 
 Run `scripts/validate_package.py` before publishing and again before final logging.
 
-## Real Image Source
+## Image Source Selection
 
-Before generating any images, inspect the user's real-material folder:
+Do not automatically inspect or select from the configured real-material folder for a product-focused creative-drinkware post. Generate a new 3-4 image set for the post instead, then upload the generated output files. For Naike, generated product imagery should remain focused on distinctive, plausible cups and drinkware, not plates, lunch boxes, food pods, or unrelated containers.
 
-The user's configured real-media directory. For this Naike setup, the current path is `D:\图片文件\Linkedin每日发布`; prefer an explicitly configured path from the user or task environment when it differs.
+Use `D:\图片文件\Linkedin每日发布` only when the requested theme requires authentic company evidence or the user explicitly requests source-folder photos. Choose only relevant real photos for factory work, employee moments, sample checking, order review, packing, shipping, real products, certificates, test reports, or document/QC scenes. Do not misclassify generated imagery as real user photography.
 
-Use this folder as the preferred source for LinkedIn post images. Select 3-4 suitable real photos from it when available, prioritizing recent images that match the day's theme: factory work, employee moments, sample checking, order review, packing, shipping, products, certificates, test reports, or document/QC scenes. Treat images from this folder as user-provided real source materials unless visual inspection shows they are unsuitable or clearly synthetic.
-
-For drinkware/cup topics, first search and visually inspect recent files for cup, tumbler, bottle, travel-cup, sip-cup, mug, straw-cup, or other clearly drinkable-vessel subjects. Reject images where the main subject is a plate, lunch box, food pod, meal jar, color card, generic material board, or non-drinkware container unless the copy explicitly discusses creative food containers as the main topic.
-
-If the user wants no LinkedIn content-credentials badge, use only this folder or other verified non-AI local assets. Do not generate OpenAI images for that post. If the folder has fewer than 3 suitable images, tell the user exactly how many usable images were found and ask for more real materials or publish with fewer images only if the user explicitly confirms.
+If the user asks to avoid LinkedIn's content-credentials badge, use only verified non-AI source assets for that post. Explain that LinkedIn may attach its own provenance label to generated images; never strip, hide, falsify, or tamper with provenance or metadata. When generated concepts are used, keep the image itself free of AI-related labels as requested, and disclose in the post copy that the visuals are concepts, not confirmed production samples.
 
 ## Copy Requirements
 
@@ -190,7 +186,7 @@ python <skill-directory>/scripts/validate_package.py --package outputs/linkedin_
    - open `https://www.linkedin.com/company/3086268/admin/page-posts/published/?share=true`
    - paste the validated short copy
    - remove LinkedIn's automatic website preview if it appears before uploading product images
-   - upload the 3-4 image files through LinkedIn's file chooser; use a real file chooser event with a long timeout, not direct DOM value assignment
+   - upload the 3-4 selected output files through LinkedIn's file chooser; use a real file chooser event with a long timeout, not direct DOM value assignment. The verified working flow is to start `waitForEvent("filechooser")`, then click the visible label associated with the upload input (currently `label[for="media-editor-file-selector__file-input"]`), and pass the generated output paths to `chooser.setFiles(...)`. Do not click the hidden input directly when the visible label is available.
    - if the image editor opens, verify `1/N`, then click Next/Done
    - click Publish exactly once
 7. Verify success using more than the toast:
