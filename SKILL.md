@@ -19,11 +19,12 @@ Use external LinkedIn skill research only as operating guidance, not as a replac
 
 Use this content mix unless a newer data review clearly changes the pattern:
 
-- 40% real company moments: employees checking samples, arranging orders, production meetings, packing, shipment preparation, office/factory work moments, team culture, mission, values, and employee experience.
+- 35% real company moments and culture: employees checking samples, arranging orders, production meetings, packing, shipment preparation, team activities, mission, values, and employee experience.
 - 25% factory, QC, and shipment proof: sample approval, color checking, packaging sign-off, pre-shipment inspection, stable supply, and buyer risk reduction.
-- 15% buyer education: food-contact material selection, FDA/LFGB/BPA Free/Food Contact basics, how to reduce sample rework, Pantone confirmation, private label launch readiness.
-- 10% product and customization: unique drinkware, creative food containers, logo customization, packaging options, color options, and private label examples.
-- 10% company culture and trust: teamwork, responsibility, responsiveness, service attitude, and behind-the-scenes stories tied to buyer confidence.
+- 30% industry trends and buyer education: sourced category shifts, food-contact/compliance explainers, safety-first sourcing, private-label changes, and practical buyer checklists.
+- 10% product and customization: unique drinkware and creative food containers, but frame the product through a relevant trend, user scenario, sourcing decision, or buyer takeaway rather than a standalone catalog pitch.
+
+Planning target: publish 2-3 distinct trend/education posts in a seven-post week, alongside real company/QC proof. Product-only posts should be occasional. When relevant, connect each post to one industry insight and one actionable implication for importers, distributors, or private-label buyers without forcing an unrelated trend into a real company story.
 
 For reach growth, prioritize authentic proof over polished advertising. A post should usually answer one buyer question: "Can I trust this supplier to handle my project carefully?"
 
@@ -42,6 +43,7 @@ For low-impression recovery:
   - Over 100 impressions: high-performing for the current page size; document the hook, image type, and audience angle in the package/log.
   - 1000+ impressions is unlikely from the company page alone at the current follower size. It normally requires real employee/personal-account reposts, early comments, buyer-network growth, paid promotion, or external amplification.
 - User-observed reach signal: real company moments, especially team activities, employee faces, factory work moments, meetings, packing, sample checking, and natural behind-the-scenes photos, are more likely to get reach than polished product-only or supplier-ad posts. Treat this as the primary content direction unless a newer data review contradicts it.
+- User-reported performance signal (2026-10-07): a user-shared LinkedIn post titled `Silicone Baby Tableware Industry Trends & Compliance` reportedly had comparatively high views and brought new visitors. The screenshot did not show exact impression/visitor counts, so treat the user's explanation that trend/compliance education may outperform product-only content as a promising hypothesis, not proven causation. Reuse the content structure, not unsupported claims: a clear industry topic, a concise trends/compliance comparison, and a specific buyer takeaway. Track impressions and new visitors on future educational posts to test the hypothesis.
 - User correction on factory visuals: generated factory photos that look too clean, symmetrical, staged, poster-like, or "AI" are not acceptable. Future factory/QC posts must look closer to real phone photos or real company snapshots: a little messy, ordinary, imperfect, with people, work traces, paper forms, cartons, tools, tables, and human presence. Do not over-polish the workshop.
 - Content Credentials correction: LinkedIn may show a provenance label such as `AI used to generate all content in this image` or `OpenAI Media Service API` on OpenAI-generated images. Treat this as expected platform disclosure, not a publishing error. Do not strip, hide, falsify, or tamper with content credentials or provenance metadata. More importantly, do not describe AI-generated visuals as real photos, real factory proof, real employee moments, or "实拍".
 - User preference on content credentials: if the user asks to avoid LinkedIn content credentials, do not use OpenAI-generated images for that post. Use real user-provided/local photos, actual product photography, real certificate/report/document photos, or other rights-cleared non-AI image assets instead. If suitable non-AI visuals are unavailable, tell the user that avoiding the badge requires real source images rather than trying to remove or hide provenance.
@@ -49,6 +51,7 @@ For low-impression recovery:
 - Shift the next post away from supplier-ad wording and toward a buyer-facing mini story, practical problem, or proof moment.
 - Prefer high-performing angles: real team/culture proof, team-building with a business lesson, real factory employees checking order details, sample approval, buyer review, ready-to-ship private label programs, retail/supermarket launch readiness, and monthly buyer sourcing plans.
 - Reduce product-only posts and hard-sell catalog posts. When products are included, make them supporting context inside a real human/company moment rather than the entire story.
+- Make industry education substantive: explain one current or enduring buyer-relevant issue, what it means for sourcing, and one practical next step. For trend claims, browse for current authoritative data and record the source and publication date in the package. For compliance claims, prefer the relevant regulator or official legislation; scope statements to the destination market, material, product, and conditions of use. Do not imply that `FDA`, `LFGB`, `BPA Free`, or `Food Contact` are interchangeable universal certificates or blanket approvals.
 - Avoid narrow internal process framing such as material review, carton marks, or logo approval unless the hook clearly states the buyer outcome: less rework, faster approval, on-time shelf launch, stable reorder, or fewer shipment surprises.
 - Prepare a post-publish amplification pack in the package whenever impressions are low: one employee/personal repost caption, 2-3 short first-comment options, 2-3 employee comment suggestions, 3 buyer-relevant discussion prompts, and 5-10 target buyer profile/company keywords for manual outreach or future lead-mining.
 - For low-impression recovery, treat the first comment as the default next amplification step after the company-page post is live. Prepare `First Comment Option 1` as a practical buyer checklist tied to the post topic, and recommend it first.
@@ -123,23 +126,26 @@ Before creating the daily package, classify the post as one of these operating t
 - `Real Work Moment`: employees, sample checks, order review, packing, meeting, or shipment preparation. Best default when recent impressions are weak.
 - `Factory/QC Proof`: inspection checklist, sample approval, packaging confirmation, color matching, or pre-shipment review.
 - `Buyer Education`: compliance basics, sourcing checklist, private label risk reduction, or launch planning.
+- `Industry Trends`: sourced category shifts, changing buyer priorities, market/regulatory developments, and the practical implication for product or private-label decisions.
 - `Product Customization`: product options, Pantone colors, logo/packaging customization, sample development.
 - `Company Culture`: teamwork, mission, values, responsibility, employee experience, or buyer trust through people.
 
-Avoid scheduling too many product/customization posts in a row. If the last 2 posts were product-heavy or supplier-ad-heavy and impressions were low, switch the next post to `Real Work Moment` or `Company Culture`.
+Avoid scheduling too many product/customization posts in a row. If the last 2 posts were product-heavy or supplier-ad-heavy and impressions were low, switch the next post to `Industry Trends`, `Buyer Education`, or `Real Work Moment`. Aim for 2-3 trend/education posts each week and rotate compliance explainers, sourcing checklists, market shifts, and buyer questions so they do not repeat the same angle.
 
 When planning a week, use a Naike-specific version of the learned LinkedIn pillar mix:
 
-- 40-50% proof/authority: QC, compliance, material education, sample approval, buyer risk reduction.
-- 30-40% real company narrative: employee work moments, team activities, values, meetings, packing, shipment preparation.
-- 10-20% community/buyer education: sourcing checklist, importer questions, common private-label mistakes.
-- 10-15% product/offer: unique drinkware, creative food containers, customization, Pantone, logo, packaging, sample development.
+- 30-40% industry trends and buyer education: sourced trends, compliance basics, sourcing checklists, importer questions, and practical private-label decisions.
+- 30-40% proof and real company narrative: QC, sample approval, employee work moments, meetings, team activities, packing, and shipment preparation.
+- 10-20% buyer community: recurring buyer questions, common sourcing mistakes, and market-specific launch considerations.
+- 10-15% product/offer: unique drinkware, creative food containers, customization, Pantone, logo, packaging, and sample development; anchor it in a buyer problem or industry insight.
 
-Do not let product/offer dominate the week when organic reach is weak. Put the product inside a believable work scene or buyer lesson whenever possible.
+Do not let product/offer dominate the week when organic reach is weak. Put the product inside a sourced trend explainer, buyer lesson, or believable work scene whenever possible.
 
 ## Image Requirements
 
 Attach 3-4 images to the single LinkedIn post. Match the image set to the daily operating theme instead of repeating a product pile:
+
+- If the user explicitly supplies the image set or specifies a different image count for that post, use the supplied/requested count rather than inventing or duplicating images. Validate this exception with `scripts/validate_package.py --user-supplied-image-count`; the default remains 3-4 images.
 
 0. For reach recovery, prefer real-looking company/team images over product-only images: team-building, team meals, morning meetings, sample checks, order sorting, production meetings, packaging tables, warehouse shipping, office communication, and natural employee work moments. People should look like real Chinese employees, not posed models. Keep scenes clean, ordinary, and credible.
    - Factory and QC images should feel lived-in and real, not like a showroom or AI catalog. Allow mild clutter: tape, cartons, pens, clipboards, sample bags, tools, imperfect stacks, half-open boxes, handwritten notes, staff cups or ordinary desk items where appropriate. Keep it clean enough for a factory, but not sterile.
@@ -159,6 +165,14 @@ Attach 3-4 images to the single LinkedIn post. Match the image set to the daily 
    - Keep text minimal and credible. Avoid long fake paragraphs, unreadable tiny copy, invented certification numbers, QR codes, fake certificate visuals, wrong logos, and cluttered poster text.
 3. Products should normally occupy about 20-35% of factory/QC/packaging scene images, not dominate the whole image.
 4. Optional close-up image may show packaging/detail/color/customization review when it supports the daily theme.
+
+For industry-trend, compliance, and buyer-education posts, make the image set teach something at a glance instead of serving as generic product/lifestyle decoration:
+
+- Use a clear topic headline, 2-4 concise and distinct points, and a buyer takeaway or next-step checklist. A useful structure is `Market Trends` + `Compliance Basics` + `Buyer Takeaway`, adapted to the specific product category and topic.
+- Keep every claim accurate, scoped, and readable. Do not invent market-growth numbers, consumer preferences, certification status, test results, batch records, or regulatory requirements. Research time-sensitive trend claims from current reliable sources; use regulators/official legislation for compliance, and retain source URLs, publication dates, and the claim each source supports in the package.
+- Distinguish evidence from advice: label general recommendations as buyer checks, not legal requirements. Explain when rules depend on destination market, product material, intended use, or test conditions.
+- Use one visual slide to state the main insight and the remaining images to make the comparison/checklist practical. If a documentary/photo-style image is included for authenticity, it is supporting context and must not replace the actual educational content.
+- Avoid decorative generic taglines, unreadable microcopy, unsupported claims such as broad market trends, fake seals/certificates, and wording that makes a generated illustrative scene look like real company evidence.
 
 Images should support the current post theme and product direction: unique drinkware and creative food containers. For product-focused visuals, show photorealistic commercial product photography with realistic material texture, natural studio or workbench lighting, and credible product display.
 
@@ -180,6 +194,8 @@ Strictly avoid raw material pellets, beans, grains, seeds, food ingredients, loo
 ```bash
 python <skill-directory>/scripts/validate_package.py --package outputs/linkedin_post_YYYY-MM-DD_package.md --images IMG1 IMG2 IMG3 [IMG4]
 ```
+
+Add `--user-supplied-image-count` only when the user explicitly supplied or specified the image set/count and it is outside the default 3-4 range.
 
 5. Publish through the signed-in Chrome LinkedIn company-page composer. Do not switch the Naike workflow to Publora or another third-party scheduler unless the user explicitly asks again.
 6. Use Chrome company-page composer with the signed-in session:

@@ -44,7 +44,7 @@ def count_english_chars(text: str) -> int:
     return len(text)
 
 
-def validate(package: Path, images: list[Path]) -> dict:
+def validate(package: Path, images: list[Path], user_supplied_image_count: bool = False) -> dict:
     if not package.exists():
         raise ValueError(f"package does not exist: {package}")
     markdown = package.read_text(encoding="utf-8")
@@ -73,8 +73,10 @@ def validate(package: Path, images: list[Path]) -> dict:
     if not (5 <= len(hashtags) <= 8):
         errors.append(f"post must include 5-8 hashtags; got {len(hashtags)}")
 
-    if not (3 <= len(images) <= 4):
-        errors.append(f"must attach 3-4 images; got {len(images)}")
+    allowed_image_count = 1 <= len(images) <= 4 if user_supplied_image_count else 3 <= len(images) <= 4
+    if not allowed_image_count:
+        expected = "1-4 user-supplied images" if user_supplied_image_count else "3-4 images"
+        errors.append(f"must attach {expected}; got {len(images)}")
     for image in images:
         if not image.exists():
             errors.append(f"image does not exist: {image}")
@@ -97,11 +99,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--package", required=True, type=Path)
     parser.add_argument("--images", nargs="+", required=True, type=Path)
+    parser.add_argument(
+        "--user-supplied-image-count",
+        action="store_true",
+        help="Allow 1-4 images when the user explicitly supplies the image set or count.",
+    )
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
 
     try:
-        result = validate(args.package, args.images)
+        result = validate(args.package, args.images, args.user_supplied_image_count)
     except Exception as exc:
         result = {"ok": False, "errors": [str(exc)]}
 

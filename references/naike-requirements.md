@@ -81,23 +81,24 @@ For employee/personal-account amplification, only prepare optional captions and 
 
 For Naike's current page stage, favor trust and proof over product catalog posts:
 
-- 40-50% proof/authority: QC, compliance, material education, sample approval, buyer risk reduction.
-- 30-40% real company narrative: employee work moments, team activities, values, meetings, packing, shipment preparation.
-- 10-20% community/buyer education: sourcing checklists, importer questions, private-label mistakes.
-- 10-15% product/offer: unique drinkware, creative food containers, Pantone, logo, packaging, sample development.
+- 30-40% industry trends and buyer education: sourced category shifts, compliance explainers, sourcing checklists, importer questions, and practical private-label decisions.
+- 30-40% proof and real company narrative: QC, sample approval, employee work moments, meetings, team activities, packing, and shipment preparation.
+- 10-20% buyer community: recurring buyer questions, common sourcing mistakes, and market-specific launch considerations.
+- 10-15% product/offer: unique drinkware, creative food containers, Pantone, logo, packaging, and sample development, anchored in a buyer problem or industry insight.
 
-If the last few posts remain under about 30 impressions, increase real company narrative and proof posts before trying more polished product posters.
+Plan 2-3 distinct trend/education posts in a seven-post week. A user-shared `Silicone Baby Tableware Industry Trends & Compliance` post reportedly received comparatively high views and new visitors. Exact counts were not visible, so treat this as a hypothesis that educational framing may outperform product-only content, not proof of causation. Track future educational posts' impressions and new visitors to test it. If recent posts remain under about 30 impressions, combine education with authentic company proof rather than returning to product-only posters.
 
 ## Image Set Pattern
 
 Use a varied 3-4 image carousel:
 
-- Image 1: product poster or export catalog hero, may include company name, badges, customization points, and contacts.
-- Image 2: clean white-background product main image, no text overlays.
-- Image 3: lifestyle tabletop scene, no text overlays.
-- Image 4: packaging, stack, detail, or color/customization scene, no text overlays.
+- For an industry-trend, compliance, or buyer-education post, make the carousel itself educational: a clear topic headline, 2-4 concise points, and a buyer takeaway/checklist. A useful structure is a trends/compliance comparison followed by a specific sourcing action.
+- Use supporting images to clarify a comparison, use case, or evidence checklist. A realistic scene can add context, but generic product/lifestyle images alone do not make the post educational.
+- For a product/customization post, use a concise product hero, clean product/lifestyle detail, and packaging/color/customization evidence appropriate to the buyer's decision.
 
 Hero images may include concise commercial text. Product main images should look like real product photos and should not include poster copy.
+
+For current trend statements, retain source URLs and publication dates in the package, and use reliable current evidence rather than invented growth figures or unsourced claims about consumer preferences. For compliance, prioritize official regulators and legislation. Scope claims to destination market, material, product, intended use, and relevant conditions. Do not imply that `FDA`, `LFGB`, `BPA Free`, or `Food Contact` are interchangeable universal certificates or blanket approvals.
 
 For product-focused cup/drinkware topics, generate a fresh 3-4 image set with cups, tumblers, travel cups, bottles, sip cups, straw cups, or mugs as the primary subject. Do not browse the configured real-media folder to source or fill these product carousels. Do not use silicone plates, lunch boxes, color-board images, stackable food pods, or meal jars unless the user explicitly requests a mixed creative food-container post. Use the real-media folder only for themes requiring authentic company evidence or when the user explicitly requests source-folder photos. Clearly describe generated visuals as concepts, not confirmed production samples.
 

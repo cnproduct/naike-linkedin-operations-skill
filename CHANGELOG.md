@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-07
+
+- Made sourced industry trends, compliance explainers, and buyer takeaways a regular content pillar (2-3 posts per seven-post week), with products used as context rather than the default headline.
+- Recorded the user's qualitative report that a silicone baby-tableware trends/compliance post drew comparatively high views and new visitors; treat the relationship as a hypothesis and track future results rather than claiming causation.
+- Required educational visuals to communicate a clear topic, 2-4 readable points, and a buyer takeaway; added source and regulatory-claim checks for trend/compliance content.
+
 ## 2026-09-28
 
 - Set fresh generated cup/drinkware images as the default for product-focused drinkware posts instead of sourcing them from the real-media folder.
