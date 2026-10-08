@@ -9,9 +9,6 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 REQUIRED_SNIPPETS = [
-    "WhatsApp +86 13599220505",
-    "Email info@naikegroup.com",
-    "Website naikegifts.com",
     "Keywords:",
 ]
 
@@ -60,6 +57,8 @@ def validate(package: Path, images: list[Path], user_supplied_image_count: bool 
     if char_count < 650 and not post.upper().startswith("DO YOU WANT"):
         errors.append(f"non-sourcing-hook posts should usually be 650+ characters; got {char_count}")
     lowered = post.lower()
+    if re.search(r"https?://|www\.|[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}|\+?\d[\d ()-]{7,}\d", post, re.IGNORECASE):
+        errors.append("post body must not include external URLs or contact details")
     for term in BANNED_TERMS:
         if term in lowered:
             errors.append(f"banned AI-style filler term found: {term}")
