@@ -44,6 +44,7 @@ For low-impression recovery:
   - 1000+ impressions is unlikely from the company page alone at the current follower size. It normally requires real employee/personal-account reposts, early comments, buyer-network growth, paid promotion, or external amplification.
 - User-observed reach signal: real company moments, especially team activities, employee faces, factory work moments, meetings, packing, sample checking, and natural behind-the-scenes photos, are more likely to get reach than polished product-only or supplier-ad posts. Treat this as the primary content direction unless a newer data review contradicts it.
 - User-reported performance signal (2026-10-07): a user-shared LinkedIn post titled `Silicone Baby Tableware Industry Trends & Compliance` reportedly had comparatively high views and brought new visitors. The screenshot did not show exact impression/visitor counts, so treat the user's explanation that trend/compliance education may outperform product-only content as a promising hypothesis, not proven causation. Reuse the content structure, not unsupported claims: a clear industry topic, a concise trends/compliance comparison, and a specific buyer takeaway. Track impressions and new visitors on future educational posts to test the hypothesis.
+- User reach optimization (2026-10-08): omit URLs and contact details from the main post body; prioritize useful trend/compliance education, buyer insight, and authentic proof over outbound traffic prompts. After the company-page post is visibly published and verified, publish the official website as the company's first comment. The user has explicitly authorized this specific recurring link-comment action; do not ask for another confirmation. Use `https://naikegifts.com`, verify the company-page identity and comment visibility, then log it. Never place the URL in the body or comment before the post is live.
 - User correction on factory visuals: generated factory photos that look too clean, symmetrical, staged, poster-like, or "AI" are not acceptable. Future factory/QC posts must look closer to real phone photos or real company snapshots: a little messy, ordinary, imperfect, with people, work traces, paper forms, cartons, tools, tables, and human presence. Do not over-polish the workshop.
 - Content Credentials correction: LinkedIn may show a provenance label such as `AI used to generate all content in this image` or `OpenAI Media Service API` on OpenAI-generated images. Treat this as expected platform disclosure, not a publishing error. Do not strip, hide, falsify, or tamper with content credentials or provenance metadata. More importantly, do not describe AI-generated visuals as real photos, real factory proof, real employee moments, or "实拍".
 - User preference on content credentials: if the user asks to avoid LinkedIn content credentials, do not use OpenAI-generated images for that post. Use real user-provided/local photos, actual product photography, real certificate/report/document photos, or other rights-cleared non-AI image assets instead. If suitable non-AI visuals are unavailable, tell the user that avoiding the badge requires real source images rather than trying to remove or hide provenance.
@@ -91,12 +92,12 @@ Use fresh, non-duplicate English B2B copy:
 - Strong hook examples: `Before shipment, small checks can prevent big problems.`, `A private label order is not ready until the details are checked.`, `Today the packing table tells the real story.`, `Sample approval is where fewer delays begin.`
 - For real company/team posts, the hook should connect trust to the human scene, such as teamwork, responsibility, careful checking, fast response, shared standards, or buyer confidence.
 - Use 2-3 short value paragraphs and light relevant emoji. The body should explain the buyer problem, what the team checks, and why it matters for private label or import buyers.
-- Use clean LinkedIn layout: hook line, blank line, 2-3 short value paragraphs, blank line, contact details on separate lines, blank line, `Keywords:` line, then one hashtag line.
+- Use clean LinkedIn layout: hook line, blank line, 2-3 short value paragraphs, blank line, `Keywords:` line, then one hashtag line. Under the user's reach-first preference, omit URLs and contact details from the post body.
 - Apply the learned `linkedin-skills` copy discipline before publishing:
   - Put the strongest buyer benefit inside the first 140-210 characters.
   - Do not open with a generic question. If a question is useful, move it later or turn it into a buyer-risk statement. `DO YOU WANT ...` is allowed only when the user explicitly asks for that style or when it is intentionally rotated in as an occasional sourcing hook.
   - Prefer concrete first lines over formulaic hooks: a dated work moment, a buyer-risk reduction, a shipment/sample check, a team responsibility point, or one specific sourcing problem.
-  - Keep paragraphs short and scannable; avoid squeezing contact details into one crowded line.
+  - Keep paragraphs short and scannable; omit all URLs and contact details from the post body.
   - Use specific B2B buyer situations such as sample approval, reorder stability, packaging sign-off, supermarket launch, Amazon/ecommerce private label, importer QC, or distributor supply.
   - Remove AI-sounding filler and generic words such as `leverage`, `utilize`, `streamline`, `robust`, `seamless`, `unlock`, `game-changer`, `deep dive`, and `in today's fast-paced world`.
   - Avoid em dashes, en dashes, double dashes, generic rhetorical-question openers, staccato fragments, fake vulnerability, and generic closers such as `What do you think?`.
@@ -111,10 +112,7 @@ Use fresh, non-duplicate English B2B copy:
 - Rotate hook styles across the week: real-work observation, buyer-risk statement, checklist angle, company/team proof, compliance education, and occasional `DO YOU WANT ...` sourcing hook. If recent posts look templated or low-impression, avoid `DO YOU WANT ...` and lead with a real scene instead.
 - Include OEM/ODM, private label, food-contact material, FDA/LFGB/BPA Free/Food Contact keywords where natural.
 - Include Pantone color matching, logo customization, packaging customization, sample development, and stable supply in compressed wording.
-- Always include:
-  - `WhatsApp +86 13599220505`
-  - `Email info@naikegroup.com`
-  - `Website naikegifts.com`
+- Do not put external URLs, website links, email addresses, phone/WhatsApp details, or contact lines in the public post body. Keep contact details in internal package metadata only when needed.
 - Include one short `Keywords:` line.
 - Include 5-8 relevant hashtags.
 - Avoid long catalog-style paragraphs, crowded contact lines, repeated prior hooks, dense keyword stuffing, and overly short posts that only state a capability list without context.
@@ -201,7 +199,7 @@ Add `--user-supplied-image-count` only when the user explicitly supplied or spec
 6. Use Chrome company-page composer with the signed-in session:
    - open `https://www.linkedin.com/company/3086268/admin/page-posts/published/?share=true`
    - paste the validated short copy
-   - remove LinkedIn's automatic website preview if it appears before uploading product images
+   - remove any automatic website preview if one appears before uploading images; do not put external URLs in the post body
    - upload the 3-4 selected output files through LinkedIn's file chooser; use a real file chooser event with a long timeout, not direct DOM value assignment. The verified working flow is to start `waitForEvent("filechooser")`, then click the visible label associated with the upload input (currently `label[for="media-editor-file-selector__file-input"]`), and pass the generated output paths to `chooser.setFiles(...)`. Do not click the hidden input directly when the visible label is available.
    - if the image editor opens, verify `1/N`, then click Next/Done
    - click Publish exactly once
@@ -211,17 +209,17 @@ Add `--user-supplied-image-count` only when the user explicitly supplied or spec
    - attached media is visible or LinkedIn image editor showed all files before publish
 8. Write success log. If direct post URL extraction fails, record the verified admin published-posts URL and explain the limitation.
 
-## Post-Publish Amplification Workflow
+## Post-Publish Link Comment Workflow
 
-Use this only after the company-page post is successfully published and verified.
+Use this only after the company-page post is successfully published and verified. The user has authorized this exact recurring action: publish the official website link as Naike Group's first comment, without asking for another confirmation. This authorization covers only the official website link on the newly verified Naike company-page post, not other comments or engagement actions.
 
-1. If recent impressions are under 30, open the dated Amplification Pack and identify `First Comment Option 1`.
-2. Draft first comments in the learned 200-350 character range where possible: no hashtags, no generic praise, no repeated contact details, and one practical buyer detail or checklist point that extends the post.
-3. Treat first comment as the default follow-up step after a successful post. Open the verified LinkedIn post URL, confirm the target post hook/date, and confirm the comment box is posting as `Naike Group Co., Ltd.`.
-4. Paste or stage only `First Comment Option 1` if doing so does not submit it. Before pressing the comment/post button, ask for explicit action-time confirmation in the exact form needed, such as `确认发首评第1条`.
-5. Submit only the confirmed first comment. Do not like, repost, invite followers, message buyers, or boost unless separately confirmed for that exact action.
-6. Verify the comment is visible under the post, with author `Naike Group Co., Ltd.` and the exact submitted text.
-7. Update the dated amplification file and automation memory with the executed action and verification result.
+1. Open the just-published post and verify its date/hook and that the composer identity is `Naike Group Co., Ltd.`.
+2. Publish a concise first comment containing only the official website: `https://naikegifts.com`.
+3. Verify the comment is visible under the correct post and attributed to `Naike Group Co., Ltd.`.
+4. Update the dated amplification file, publish log, and automation memory with the exact link, post URL, and verification result.
+5. If posting or verifying the link comment fails, retry that blocked step once, log the blocker, and do not claim it was posted.
+
+This standing authorization does not extend to likes, reposts, employee comments, messages, invitations, or paid boosting. Do not execute those without separate explicit confirmation.
 
 For a serious reach push, also prepare but do not execute without explicit confirmation:
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-08
+
+- Adopted a reach-first format: omit URLs and contact details from post copy and prioritize useful industry insight over outbound traffic prompts.
+- Added the user's standing authorization to publish `https://naikegifts.com` as the first company-page comment only after a post is published and verified, then verify and log the comment.
+
 ## 2026-10-07
 
 - Made sourced industry trends, compliance explainers, and buyer takeaways a regular content pillar (2-3 posts per seven-post week), with products used as context rather than the default headline.

@@ -8,13 +8,13 @@
 - Main products: unique drinkware and creative food containers.
 - Buyer targets: importers, distributors, Amazon/ecommerce sellers, supermarket/private label buyers, gift, drinkware, food container, lifestyle product, promotional product, and creative kitchenware sourcing teams.
 
-## Required Contact Details
+## Contact Details (Keep Out of Post Body)
 
-Use these exactly:
+Keep these accurate in internal packages or when explicitly requested, but omit them from the public post body under the user's reach-first preference:
 
 - WhatsApp +86 13599220505
 - Email info@naikegroup.com
-- Website naikegifts.com
+- Website https://naikegifts.com
 
 ## Copy Pattern
 
@@ -27,11 +27,7 @@ Preferred real-work pattern:
 
 [1-2 short lines describing what the team is checking and why it reduces buyer risk.]
 
-Naike supports OEM/ODM [unique drinkware / creative food container phrase]: private label, food-contact material, FDA/LFGB/BPA Free/Food Contact, Pantone color, logo, packaging, samples and stable supply.
-
-WhatsApp +86 13599220505
-Email info@naikegroup.com
-Website naikegifts.com
+Naike supports OEM/ODM [unique drinkware / creative food container phrase]: private label, food-contact material, market-specific compliance documentation, Pantone color, logo, packaging, samples and stable supply.
 
 Keywords: [2-4 phrases]
 #[5-8 relevant hashtags]
@@ -44,7 +40,7 @@ DO YOU WANT [specific buyer outcome]? [emoji]
 
 [One concrete proof/checklist paragraph tied to the day's real scene.]
 
-[Compact Naike capability line and contact details.]
+[Compact buyer-relevant takeaway. No URLs or contact details.]
 ```
 
 Vary the hook and product wording every day. Do not use `DO YOU WANT ...` on consecutive posts, and normally use it no more than 2 times in any 7-day period unless the user explicitly asks for that style.
@@ -63,17 +59,18 @@ Before publishing, run a quick copy pass:
 - Use light emoji only when it helps scanning.
 - Remove AI-style filler: `leverage`, `utilize`, `streamline`, `robust`, `seamless`, `unlock`, `game-changer`, `deep dive`, `in today's fast-paced world`.
 - Avoid em dashes, en dashes, double dashes, generic claims, generic closers such as `What do you think?`, reveal-bridge lines such as `The result?`, and formula openers such as `Here's what`.
-- Do not add external links except the required website contact line; remove LinkedIn's automatic preview before image upload.
+- Do not put any external URL, website, email address, phone/WhatsApp contact, or automatic link preview in the public post body. Keep the post focused on useful insight and buyer value, with `Keywords:` and relevant hashtags.
+- After the post is visibly published and verified, publish `https://naikegifts.com` as the company's first comment. The user has pre-authorized this one specific link-comment action; verify it appears under the correct post as Naike Group Co., Ltd. and log the result. Do not include the link before publication.
 
 ## First Comment and Amplification Pattern
 
-After a post is live, prepare a practical first comment rather than another sales pitch:
+After a post is live, the first comment is the official website link only (`https://naikegifts.com`). The user's standing authorization covers publishing this specific link comment. Do not ask for confirmation again. For optional additional buyer-education comments, use a practical checklist rather than another sales pitch:
 
 ```text
 For private label buyers, [specific topic] is worth checking before production: [2-3 concrete checks]. This helps reduce [buyer risk] before shipment.
 ```
 
-Keep the first comment around 200-350 characters when possible. Do not use hashtags, emoji, repeated contact details, or generic praise. It should add one useful buyer checklist point that the main post did not fully cover.
+Do not combine the authorized website-link comment with hashtags, emoji, or other promotional material. Any additional comment beyond this exact link requires separate explicit confirmation.
 
 For employee/personal-account amplification, only prepare optional captions and comment suggestions. Do not execute likes, comments, reposts, messages, invitations, or boosts without action-time confirmation. Suggestions should sound like real people, not copied company slogans.
 
